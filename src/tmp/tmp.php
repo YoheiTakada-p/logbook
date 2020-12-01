@@ -1,5 +1,5 @@
 <?php
-//book log tmp
+//logbook tmp
 
 //cmd log: docker-compose exec app php tmp/tmp.php
 //Interactive shell: docker-compose exec app php -a
@@ -13,7 +13,7 @@ require __DIR__ . '/databases/db_update.php';
 require __DIR__ . '/databases/db_delete.php';
 
 //DBに接続
-$link = db_Connect();
+$link = db_connect();
 //バリデーション
 function validation(&$check)
 {

@@ -24,8 +24,9 @@ use docker-php-heroku
 "hoge"を動かすのに必要なライブラリなどを列挙する
 環境変数の設定用ライブラリ
 
-* huga 3.5.2
-* hogehuga 1.0.2
+* PHP dotenv v5.2.0
+  -https://github.com/vlucas/phpdotenv
+  ・環境変数を設定。herokuにデブロイする時はheroku内で設定するので使わない。
 
 # Installation
 

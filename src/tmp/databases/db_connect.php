@@ -1,6 +1,6 @@
 <?php
 
-function db_Connect()
+function db_connect()
 {
     $link = mysqli_connect('db', 'book_log', 'pass', 'book_log');
     if (!$link) {
