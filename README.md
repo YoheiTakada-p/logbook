@@ -23,7 +23,32 @@ URL
 * PHP dotenv v5.2.0  
   -https://github.com/vlucas/phpdotenv  
   ・環境変数の設定。herokuにデブロイする時はheroku内で設定するので使いません  
+  
+ 
+# Usage
 
+ ※ローカルで使う場合  
+ 
+ 1.dockerをビルドする  
+   $ docker-compose build  
+   $ docker-compose up -d  
+    
+ 2.composerのインストール  
+   $ docker-compose exec app /bin/bash  
+   $ conposer install  
+   
+ 3.srcフォルダ内に.envファイルを作成してください  
+   .env  
+     DB_HOST=db  
+     DB_USERNAME=book_log  
+     DB_PASSWORD=pass  
+     DB_DBNAME=book_log  
+     
+ 4.DBの作成  
+   $ docker-compose exec app phpふぉ databases/initialize_logs_table.php
+   
+ 5.http://localhost:10080 を開く
+  
 # Note
 
  なんでMySQL5.4なの？  
