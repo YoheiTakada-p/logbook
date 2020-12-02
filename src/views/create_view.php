@@ -16,9 +16,9 @@
         <div class="main-wrapper main-contents">
             <h2 class="form-header">create</h2>
             <?php if ($errors) : ?>
-                <ul class="ul_text">
+                <ul class="ul-text">
                     <?php foreach ($errors as $error) : ?>
-                        <li class="li_text"><?php echo $error; ?></li>
+                        <li class="li-text"><?php echo $error; ?></li>
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
