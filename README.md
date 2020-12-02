@@ -11,7 +11,9 @@
 
 # DEMO
 
-URL
+https://evening-beach-89842.herokuapp.com/  
+![無題](https://user-images.githubusercontent.com/70951570/100832821-f5a1b680-34ab-11eb-8fda-7b58408cd7d0.png)
+
 
 # Features
 
@@ -26,7 +28,7 @@ URL
 
 # Usage
 
-※ローカルで使う場合
+* ローカルで使う場合
 
 1.dockerをビルドする
   $ docker-compose build
@@ -54,6 +56,9 @@ URL
 herokuのアドオンであるClearDBがMySQL5.4までしか対応していないため
 
 Documentsに簡単な要件定義書と画面遷移図、WFが入ってます
+
+herokuのMySQLはタイムゾーンの変更は難しいみたいです  
+プログラム上でデータをいじる方法がありますが、今回はやっていないのでタイムゾーンはSYSTEMです
 
 機能を追加(ユーザー管理、並び替え等)してLaravelで書き直す予定です
 また、AWSでデプロイしたいと思っています。
