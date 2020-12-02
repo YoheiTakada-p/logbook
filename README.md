@@ -52,7 +52,7 @@ https://evening-beach-89842.herokuapp.com/
 
 # Note
 
-なんでMySQL5.4なの？
+なんでMySQL5.4なの？  
 herokuのアドオンであるClearDBがMySQL5.4までしか対応していないため
 
 Documentsに簡単な要件定義書と画面遷移図、WFが入ってます
