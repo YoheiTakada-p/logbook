@@ -1,66 +1,35 @@
-use docker-php-heroku
-
 # Dokusho Log　ver-1.0
 
- 読書ログは読んだ本の内容を記録できるメモ帳アプリ
+ 読書ログは読んだ本の内容を記録できるメモ帳アプリです
+ 試作品です
 
- プログラミングの練習目的で作成してみた
+ プログラミングの練習目的で作成しました
  ・PHPを使ってみる
  ・Dockerを使って実務に近い環境でデプロイまでしてみる
 
- 作成期間は本体自体は1週間程度で、dockerやherokuなどの環境構築で1週間程度の計2週間程度
+ 作成期間は本体自体は1週間程度で、dockerやherokuなどの環境構築で1週間程度の計2週間程度です
 
 # DEMO
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+URL
 
 # Features
 
-読書に特化した非常にシンプルで扱いやすいメモ帳
-使いやすく、説明書を見なくても直感的な操作で利用できるUI
+ 読書に特化した非常にシンプルで扱いやすいメモ帳
+ 使いやすく、説明書を見なくても直感的な操作で利用できるUI
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-環境変数の設定用ライブラリ
-
 * PHP dotenv v5.2.0
   -https://github.com/vlucas/phpdotenv
-  ・環境変数を設定。herokuにデブロイする時はheroku内で設定するので使わない。
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
-
-# Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+  ・環境変数の設定。herokuにデブロイする時はheroku内で設定するので使いません
 
 # Note
 
  なんでMySQL5.4なの？
- herokuのアドオンであるClearDBがMySQL5.4までしか対応していなかったから
+ herokuのアドオンであるClearDBがMySQL5.4までしか対応していないため
 
- Documentsに簡単な要件定義書と画面遷移図、WFが入ってるよ
+ Documentsに簡単な要件定義書と画面遷移図、WFが入ってます
 
- Laravelで機能を追加(ユーザー管理、並び替え等)して書き直す予定。
-
-# Author
-
- yohei
-
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
+ 機能を追加(ユーザー管理、並び替え等)してLaravelで書き直す予定です
+ また、AWSでデプロイしたいと思っています。

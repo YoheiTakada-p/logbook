@@ -1,1 +1,109 @@
 @import url("./reset.css");
+
+body {
+  background-color: #F6F8FA;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-weight: normal;
+}
+/*header css */
+header {
+  background-color: #24292e;
+  color: hsla(0, 0%, 100%, 0.8);
+  padding: 12px;
+  z-index: 32;
+}
+header a {
+  color: inherit;
+}
+/* main css */
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+.main-contents {
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+  background-color: #FFFF;
+  padding: 14px 14px 5px 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* create btn css */
+.main-create-btn {
+  text-align: center;
+  margin: 10px;
+}
+.main-create-btn-a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  background-color: #2ea44f;
+  padding: 10px 85px;
+}
+/* contents css */
+.main-value {
+  padding: 0 5px;
+}
+.po {
+  text-align: center;
+}
+.author {
+  margin-top: 5px;
+}
+.memo {
+  margin-top: 5px;
+  padding: 5px 15px 5px 15px;
+}
+.main-etc {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #cacdd1;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+.main-info {
+  margin-top: 5px;
+  padding-top: 1px;
+}
+.main-edit-btn {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.main-edit-btn a {
+  color: #24292e;
+  margin: 0 2px;
+}
+/* create css */
+.form-header {
+  margin-bottom: 12px;
+  font-size: 1.2em;
+}
+.form-text {
+  margin: 14px;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+.input-text{
+  width: 100%;
+}
+textarea {
+  resize: none;
+}
+.form-btn {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    margin-top: 35px;
+  }
+}

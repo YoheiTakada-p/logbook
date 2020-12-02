@@ -6,7 +6,7 @@ function db_select($link)
     $logs = [];
 
     $sql = <<<EOT
-    SELECT * FROM logs
+    SELECT * FROM logs ORDER BY created_at desc
     EOT;
 
     //SQL SELECT
